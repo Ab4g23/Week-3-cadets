@@ -1,0 +1,28 @@
+clear X;
+clear yellow;
+incr yellow;
+
+com testing different commands;
+incr X;
+incr X;
+add X yellow;
+sub X 1;
+incr yellow;
+product X yellow;
+divide yellow 2;
+incr yellow;
+
+clear X;
+incr X;
+incr X;
+incr X;
+clear Counter;
+while X not 0 do;
+    decr X;
+    while yellow not 0 do;
+        decr yellow;
+    end;
+    incr Counter;
+end;
+
+add X Counter;
